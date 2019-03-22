@@ -71,6 +71,14 @@ p {
     margin: 0 auto;
 }
 
+@keyframes opacity {
+    0%   {opacity: 0}
+    25%  {opacity: .25;}
+    50%  {opacity: .50;}
+    75%  {opacity: .75;}
+    100% {opacity: 1;}
+  }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +112,13 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: opacity 10s infinite;
 }
 
 .bottom-content {
@@ -143,4 +152,107 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.box-0{
+    background-color: teal;
+}
+.box-1{
+    background-color: gold;
+}
+.box-2{
+    background-color: cadetblue;
+}
+.box-3{
+    background-color: coral;
+}
+.box-4{
+    background-color: crimson;
+}
+.box-5{
+    background-color: forestgreen;
+}
+.box-6{
+    background-color: darkorchid;
+}
+.box-7{
+    background-color: hotpink;
+}
+.box-8{
+    background-color: indigo;
+}
+.box-9{
+    background-color: dodgerblue;
+}
+header, nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+#logo {
+    margin-right: 5rem;
+    animation: opacity 7s;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 4rem;
+}
+header nav a:hover{
+    color: green;
+}
+footer nav a:hover{
+    color: yellow;
+}
+#jumbo{
+    margin: 2rem 0;
+    animation: opacity 5s 1;
+    
+}
+.about-div{
+    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+.about-content-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+.inner-content{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+h2{
+    margin: 1rem 0;
+}
+.about-button{
+    margin: 1rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: .5rem 2rem;
+}
+.ic-top{
+    border-bottom: 1px dashed black;
+    padding: 0;
+    margin-right: 1.7rem;
+    
+}
+.contact-form input, textarea{
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+textarea{
+    width: 99%;
+    height: 10rem;
+    margin-top: 1rem;
+}
+.contact-form input{
+    width: 49%;
+    margin: 1rem 0;
+    
+}
+#submit, #reset{
+    width: 24%;
 }
