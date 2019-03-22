@@ -188,8 +188,15 @@ nav a {
     color: black;
     margin-right: 4rem;
 }
+header nav a:hover{
+    color: green;
+}
+footer nav a:hover{
+    color: yellow;
+}
 #jumbo{
     margin: 2rem 0;
+    
 }
 .about-div{
     border-bottom: 1px dashed black;
