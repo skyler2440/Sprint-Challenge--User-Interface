@@ -71,6 +71,14 @@ p {
     margin: 0 auto;
 }
 
+@keyframes opacity {
+    0%   {opacity: 0}
+    25%  {opacity: .25;}
+    50%  {opacity: .50;}
+    75%  {opacity: .75;}
+    100% {opacity: 1;}
+  }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +118,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: opacity 10s infinite;
 }
 
 .bottom-content {
@@ -182,6 +191,7 @@ header, nav{
 }
 #logo {
     margin-right: 5rem;
+    animation: opacity 7s;
 }
 nav a {
     text-decoration: none;
@@ -196,6 +206,7 @@ footer nav a:hover{
 }
 #jumbo{
     margin: 2rem 0;
+    animation: opacity 5s 1;
     
 }
 .about-div{
