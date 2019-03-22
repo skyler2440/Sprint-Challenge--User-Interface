@@ -174,3 +174,20 @@ footer nav a {
 .box-9{
     background-color: dodgerblue;
 }
+header, nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+#logo {
+    margin-right: 5rem;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 4rem;
+}
+#jumbo{
+    margin: 2rem 0;
+}
