@@ -191,3 +191,17 @@ nav a {
 #jumbo{
     margin: 2rem 0;
 }
+.about-div{
+    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+.about-content-div{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+}
+.inner-content{
+    width: 50%;
+    border: 1px solid red;
+}
