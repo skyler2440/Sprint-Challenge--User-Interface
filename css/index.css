@@ -199,9 +199,25 @@ nav a {
 .about-content-div{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid blue;
+    margin-bottom: 3rem;
 }
 .inner-content{
     width: 50%;
-    border: 1px solid red;
+    margin-bottom: 2rem;
+}
+h2{
+    margin: 1rem 0;
+}
+.about-button{
+    margin: 1rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: .5rem 2rem;
+}
+.ic-top{
+    border-bottom: 1px dashed black;
+    padding: 0;
+    margin-right: 1.7rem;
+    
 }
